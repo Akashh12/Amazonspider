@@ -2,7 +2,6 @@ import os
 import scrapy 
 from scrapy.loader import ItemLoader
 from ..items import AmazonxItem
-from scrapy.crawler import CrawlerProcess
 from scrapy import Request
 
 class AmazonxItem(scrapy.Spider):
